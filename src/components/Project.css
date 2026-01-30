@@ -1,0 +1,128 @@
+/* =========================
+   PROJECT SECTION
+========================= */
+.project-section {
+  padding: 90px 0;
+  background: #f4f3ef;
+}
+
+/* =========================
+   HEADER
+========================= */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-title {
+  font-size: 64px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.project-line {
+  border: none;
+  height: 1px;
+  background: #000;
+  margin: 20px 0 60px;
+}
+
+/* =========================
+   PROJECT CARD
+========================= */
+.project-card {
+  position: relative;
+}
+
+/* IMAGE WRAPPER */
+.project-img-wrapper {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* IMAGE */
+.project-img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all 0.4s ease;
+}
+
+/* HOVER OVERLAY */
+.project-hover {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 107, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* ICON */
+.hover-icon {
+  width: 60px;
+  height: 60px;
+  background: #ff6b00;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HOVER EFFECTS */
+.project-card:hover .project-hover {
+  opacity: 1;
+}
+
+.project-card:hover img {
+  filter: blur(2px);
+  transform: scale(1.05);
+}
+
+/* =========================
+   PROJECT INFO
+========================= */
+.project-info {
+  margin-top: 20px;
+  position: relative;
+}
+
+.project-info h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.project-info p {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 48px;
+  }
+
+  .hover-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+  }
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

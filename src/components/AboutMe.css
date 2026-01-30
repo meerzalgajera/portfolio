@@ -1,0 +1,143 @@
+/* =========================
+   About Section
+========================= */
+.about-section {
+  position: relative;
+  /* background-color: #888; */
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.about-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+.about-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================
+   Header
+========================= */
+.about-title {
+  font-size: 70px;
+  /* font-weight: 700; */
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.about-line {
+  width: 100%;
+  height: 1px;
+  background-color: #222;
+  margin-bottom: 80px;
+}
+
+/* =========================
+   Image
+========================= */
+.about-img-col {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 320px;
+}
+
+/* =========================
+   Text
+========================= */
+.about-text {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #777;
+  /* max-width: 520px; */
+  margin-bottom: 50px;
+}
+
+/* =========================
+   Language Section
+========================= */
+.language-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* Title + Icon */
+.language-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+/* Icon Box */
+.lang-icon {
+  width: 28px;
+  height: 28px;
+  background: #ff4d00;
+  color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Font Awesome Icon */
+.lang-icon svg {
+  font-size: 15px;
+}
+
+/* Language Button */
+.lang-btn {
+  padding: 12px 28px;
+  background: #ffffff;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #888;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+/* Hover Effect */
+.lang-btn:hover {
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-8px);
+  background-color: #000;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 34px;
+  }
+
+  .about-img {
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 576px) {
+  .language-wrapper {
+    gap: 12px;
+  }
+
+  .lang-btn {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+}
