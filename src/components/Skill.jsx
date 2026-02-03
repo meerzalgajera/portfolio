@@ -114,7 +114,7 @@ function Skill() {
 
           <Col md={4} sm={6} xs={12}>
             <div className="skill-card">
-              <img src={c} alt="C" className="skill-img" />
+              <img src={cpp  } alt="C" className="skill-img" />
               <h5>C</h5>
               <div className="dots">
                 <span className="active"></span><span className="active"></span>
@@ -126,7 +126,7 @@ function Skill() {
 
           <Col md={4} sm={6} xs={12}>
             <div className="skill-card">
-              <img src={cpp} alt="C++" className="skill-img" />
+              <img src={c} alt="C++" className="skill-img" />
               <h5>C++</h5>
               <div className="dots">
                 <span className="active"></span><span className="active"></span>
