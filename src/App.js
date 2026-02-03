@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import Heropart from './components/Heropart';
 import './App.css';
 import Aboutme from './components/Aboutme';
