@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import abanner from "../assets/resume-bg-img.svg";
+// import abanner from "../assets/resume-bg-img.svg";
 import about from "../assets/about-banner-img.svg";
 import "./AboutMe.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
